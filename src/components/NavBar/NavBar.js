@@ -20,6 +20,7 @@ function NavBar(){
                Projects
             </div>
          </div>
+         
       </div>
    )
 }
