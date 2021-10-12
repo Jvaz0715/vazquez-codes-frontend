@@ -1,7 +1,32 @@
+.footer,
+.logos-container,
+.copyright {
+   display: flex;
+}
+
 .footer {
+   flex-direction: column;
    background-color: black;
+   color: white;
+   font-size: 12px;
+}
+
+.logos-container {
+   margin-top: 5px;
+   justify-content: center;
+   align-items: flex-end;
+   height: 70%;
 }
 
 .contact-logos {
    width: 50px;
+   height: 50px;
+   margin: 5px;
+}
+
+.copyright {
+   justify-content: end;
+   align-items: flex-end;
+   /* border: 1px solid white; */
+   height: 20px;
 }
