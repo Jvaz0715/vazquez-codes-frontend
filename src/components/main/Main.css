@@ -1,0 +1,11 @@
+.main,
+.main-left,
+.main-right {
+   display: flex;
+}
+
+.main-left,
+.main-right {
+   width: 50%;
+   border: 1px solid purple;
+}
