@@ -1,0 +1,26 @@
+.navbar,
+.navbar-left,
+.navbar-right {
+   display: flex;
+}
+.navbar {
+   background-color: black;
+   color: white;
+}
+
+.navbar-left,
+.navbar-right {
+   width: 50%;
+   border: 1px solid purple;
+}
+
+.navbar-left {
+   justify-content: center;
+   align-items: center;
+   font-size: 48px;
+}
+
+.navbar-right {
+   justify-content: end;
+   align-items:flex-end;
+}
